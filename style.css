@@ -1,0 +1,93 @@
+/* Colors and frontd */
+body {
+	background-color: aliceblue;
+	color: darkblue;
+	font-family: serif;
+	font-size: 16px;
+}
+
+h1, h2 {
+	color: deeppink;
+}
+h1 {
+	font-weight: bold;
+	letter-spacing: 3spx;
+	font-size: 35px;	
+
+}
+
+h2 {
+	font-size: 25px;
+	font-family: cursive;
+}
+
+a {
+	text-decoration: none;
+	color: #57cc99;
+	font-weight: bold;
+}
+a:hover {
+	color: blueviolet;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+    margin: 30px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-grey {
+	background: whitesmoke;
+    padding: 60px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 45%;
+	width: 170px;
+}
+
+.btn-green {
+	padding: 20px 15px;
+	border-radius: 4px;
+	backround-color: dark;
+	color: #57cc99;
+}
+
+.btn-green:hover {
+	background-color: blueviolet;
+	color: whitesmoke;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 35px;
+}
